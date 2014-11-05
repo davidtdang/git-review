@@ -47,7 +47,7 @@
   * git remote set-url origin [SSH URL]
 
 * Pull changes from a shared github repo to your local repo
-  * git clone [SSH URL]
+  * git pull origin master
 
 * Show the history of a git repository
   * git log

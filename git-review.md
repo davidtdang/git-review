@@ -28,26 +28,26 @@
   * git status
 
 * Add a file to the staging area
-  * git add <file name>
+  * git add [file name]
 
 * Commit the contents of the staging area using the -m flag
-  * git commit -m "<message>"
+  * git commit -m "[message]"
 
 * Commit using the -m flag with a multi-line description
-  * git commit -m "<first message>" -m "<second
-  message>""
+  * git commit -m "[first message]" -m "[second
+  message]""
 
 * Push your local repository to github (assume your remote is already set)
   * git push origin master
 
 * Add a remote to your repository
-  * git remote add origin <SSH URL>
+  * git remote add origin [SSH URL]
 
 * Change an existing remote
-  * git remote set-url origin <SSH URL>
+  * git remote set-url origin [SSH URL]
 
 * Pull changes from a shared github repo to your local repo
-  * git clone <SSH URL>
+  * git clone [SSH URL]
 
 * Show the history of a git repository
   * git log
